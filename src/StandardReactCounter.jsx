@@ -4,13 +4,13 @@ import viteLogo from '/vite.svg'
 import './StandardReactCounter.css'
 import Timer from './Timer'
 import CounterTimes2 from './CounterTimes2'
+import HelloTest from './HelloTest'
 
 
 
 function StandardReactCounter() {
 
-
-       const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -35,6 +35,8 @@ function StandardReactCounter() {
           <Timer />
 
         </div>
+
+        <div><HelloTest /></div>
 
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
